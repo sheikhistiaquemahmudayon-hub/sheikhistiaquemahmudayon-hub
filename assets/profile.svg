@@ -1,43 +1,57 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
   <defs>
+    <!-- Background Base Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0A0F1D" />
+      <stop offset="0%" stop-color="#070C18" />
       <stop offset="100%" stop-color="#0F172A" />
     </linearGradient>
 
-    <linearGradient id="cyanBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Official Avraan Logo Gradient (Cyan to Electric Blue & Purple) -->
+    <linearGradient id="avraanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00F2FE" />
-      <stop offset="100%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#7000FF" />
     </linearGradient>
 
-    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.4" />
+    <!-- Subtle Radial Glow -->
+    <radialGradient id="logoGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#070C18" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Subtle Grid Texture -->
+    <pattern id="subtleGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.18" />
     </pattern>
+
+    <!-- Official Avraan Vector Logo Definition -->
+    <g id="avraan-official-logo">
+      <polygon points="45,5 82,26 82,68 45,89 8,68 8,26" fill="#111A2E" stroke="url(#avraanGrad)" stroke-width="1.75" />
+      <path d="M45 17 L67 65 H56 L51 52 H39 L34 65 H23 Z M45 31 L42 43 H48 Z" fill="url(#avraanGrad)" />
+      <path d="M18 50 C12 36, 22 23, 36 21 C30 25, 23 35, 26 46 C27 50, 31 52, 36 52 C50 52, 63 36, 73 28 C67 36, 52 59, 36 59 C25 59, 19 55, 18 50 Z" fill="url(#avraanGrad)" opacity="0.95" />
+    </g>
   </defs>
 
-  <!-- Container Base -->
-  <rect width="400" height="400" rx="16" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="1" />
-  <rect width="400" height="400" rx="16" fill="url(#grid)" />
+  <!-- Outer Container Card -->
+  <rect width="400" height="400" rx="18" fill="url(#bgGrad)" stroke="#1E293B" stroke-opacity="0.7" stroke-width="1" />
+  <rect width="400" height="400" rx="18" fill="url(#subtleGrid)" />
 
-  <!-- Concentric Geometric Accent Rings -->
-  <circle cx="200" cy="175" r="110" stroke="#1E293B" stroke-width="1" fill="none" opacity="0.6" />
-  <circle cx="200" cy="175" r="80" stroke="#1E3A8A" stroke-width="1" stroke-dasharray="4 4" fill="none" opacity="0.5" />
+  <!-- Subtle Radial Background Glow -->
+  <circle cx="200" cy="170" r="120" fill="url(#logoGlow)" />
 
-  <!-- Avraan Logo Emblem (Central Monogram Badge) -->
-  <g transform="translate(200, 175)">
-    <!-- Hexagonal Outer Frame -->
-    <polygon points="0,-65 56,-32 56,32 0,65 -56,32 -56,-32" fill="#141E33" stroke="url(#cyanBlueGrad)" stroke-width="2.5" />
-    <polygon points="0,-55 47,-27 47,27 0,55 -47,27 -47,-27" fill="none" stroke="#1E3A8A" stroke-width="1" opacity="0.5" />
-    
-    <!-- Central Geometric 'A' -->
-    <path d="M0 -34 L26 26 H13 L6 7 H-6 L-13 26 H-26 Z M0 -14 L-8 7 H8 Z" fill="url(#cyanBlueGrad)" />
+  <!-- Geometric Ring Frame -->
+  <circle cx="200" cy="170" r="92" stroke="#1E293B" stroke-width="1" fill="none" opacity="0.6" />
+
+  <!-- Centered Logo Group (Scaled 1.6x) -->
+  <g transform="translate(128, 98) scale(1.6)">
+    <use href="#avraan-official-logo" />
   </g>
 
-  <!-- Brand & Identity Text -->
-  <text x="200" y="305" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="4" fill="#F8FAFC">AVRAAN</text>
-  <text x="200" y="328" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" letter-spacing="1" fill="#94A3B8">SECURITY &amp; AI SYSTEMS</text>
+  <!-- Identity Typography -->
+  <text x="200" y="308" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#F8FAFC">AVRAAN</text>
+  <text x="200" y="330" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" letter-spacing="0.5" fill="#94A3B8">MOBILE SECURITY &amp; AI</text>
 
-  <!-- Minimal Status Dot -->
+  <!-- Status Indicator Dot -->
   <circle cx="360" cy="360" r="5" fill="#10B981" />
-  <circle cx="360" cy="360" r="9" fill="none" stroke="#10B981" stroke-width="1" opacity="0.4" />
+  <circle cx="360" cy="360" r="8" fill="none" stroke="#10B981" stroke-width="1" opacity="0.4" />
 </svg>

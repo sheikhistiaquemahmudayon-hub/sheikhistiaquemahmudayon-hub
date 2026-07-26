@@ -4,30 +4,26 @@
 
 ## Overview
 
-Software engineer and founder of **Avraan**, specializing in mobile security engineering, systems architecture, and intelligent systems integration. Dedicated to building privacy-focused security solutions and robust cross-platform applications.
+Software engineer and Founder & CEO of **Avraan**, specializing in mobile security engineering, Android internals, and cross-platform architecture. Focused on developing privacy-first threat detection systems, secure runtime environments, and AI-assisted security tooling.
 
 <p align="center">
-  <img src="assets/terminal.svg" alt="Developer Profile Terminal" width="100%" />
+  <img src="assets/terminal.svg" alt="Developer Terminal Profile" width="94%" />
 </p>
 
 ## Technical Focus
 
-### Languages & Frameworks
-- **Languages**: Dart, Python, Kotlin, TypeScript, C++
-- **Mobile Development**: Flutter, Android SDK, Native Platform Channels
-- **Backend & Systems**: FastAPI, Node.js, TensorFlow, PyTorch
-
-### Security & Infrastructure
-- **Security Engineering**: Reverse engineering mitigation, static/dynamic app analysis, cryptographic protocols
-- **DevOps & Tooling**: Docker, GitHub Actions, Linux administration, Git
+### Active Tech Stack
+- **Languages**: Dart, Python, Kotlin, C++
+- **Frameworks & Mobile**: Flutter, Android SDK, Native Platform Channels
+- **Security & Systems**: Cryptographic protocols, reverse engineering mitigation, FastAPI, Docker, Linux, Git
 
 ## Selected Projects
 
 ### [IntrudEye](https://github.com/sheikhistiaquemahmudayon)
-Mobile security application designed to detect unauthorized device access attempts, record forensic logs, and send real-time alert notifications on Android devices. Built using Flutter, Kotlin background services, and encrypted local storage.
+Mobile security suite for Android designed to detect unauthorized access attempts, record forensic logs, and dispatch real-time alert notifications. Built with Flutter, Kotlin native background services, and encrypted local storage.
 
-### [Avraan Core Toolchain](https://github.com/sheikhistiaquemahmudayon)
-Internal microservices and security utilities supporting the Avraan product ecosystem, emphasizing zero-trust architecture and low-latency client-server communication.
+### [Avraan Core Services](https://github.com/sheikhistiaquemahmudayon)
+Security microservices and developer toolchain supporting the Avraan product ecosystem, emphasizing zero-trust architecture and low-latency client-server communication.
 
 ## Contribution Activity
 

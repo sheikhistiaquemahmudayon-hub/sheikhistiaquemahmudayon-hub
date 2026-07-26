@@ -1,54 +1,89 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="100%">
   <defs>
+    <!-- Background Base Gradient -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070B15" />
+      <stop offset="0%" stop-color="#070C18" />
       <stop offset="100%" stop-color="#0F172A" />
     </linearGradient>
 
-    <linearGradient id="cyanBlueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Official Avraan Logo Gradient -->
+    <linearGradient id="avraanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00F2FE" />
-      <stop offset="100%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#7000FF" />
     </linearGradient>
 
-    <linearGradient id="bottomBorder" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.8" />
-      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#1E293B" stop-opacity="0.2" />
+    <!-- Logo Radial Background Glow -->
+    <radialGradient id="logoGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#070C18" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Extremely Subtle Bottom Line Accent -->
+    <linearGradient id="bottomAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0" />
+      <stop offset="20%" stop-color="#00F2FE" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.5" />
+      <stop offset="80%" stop-color="#7000FF" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#7000FF" stop-opacity="0" />
     </linearGradient>
 
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.4" />
+    <!-- Subtle Grid Texture -->
+    <pattern id="subtleGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.15" />
     </pattern>
+
+    <!-- Official Avraan Vector Logo Definition -->
+    <g id="avraan-official-logo">
+      <polygon points="45,5 82,26 82,68 45,89 8,68 8,26" fill="#111A2E" stroke="url(#avraanGrad)" stroke-width="1.75" />
+      <path d="M45 17 L67 65 H56 L51 52 H39 L34 65 H23 Z M45 31 L42 43 H48 Z" fill="url(#avraanGrad)" />
+      <path d="M18 50 C12 36, 22 23, 36 21 C30 25, 23 35, 26 46 C27 50, 31 52, 36 52 C50 52, 63 36, 73 28 C67 36, 52 59, 36 59 C25 59, 19 55, 18 50 Z" fill="url(#avraanGrad)" opacity="0.95" />
+    </g>
   </defs>
 
-  <!-- Container Base -->
-  <rect width="800" height="200" rx="12" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="1" />
-  
-  <!-- Subtle Grid Texture -->
-  <rect width="800" height="198" rx="12" fill="url(#grid)" />
+  <style>
+    .text-name {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.4px;
+      fill: #F8FAFC;
+    }
+    .text-role {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.1px;
+      fill: #38BDF8;
+    }
+    .text-focus {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 0.1px;
+      fill: #94A3B8;
+    }
+  </style>
 
-  <!-- Logo Section (Avraan Shield & Monogram) -->
-  <g transform="translate(48, 40)">
-    <!-- Hexagonal Shield -->
-    <polygon points="60,10 105,35 105,85 60,110 15,85 15,35" fill="#141E33" stroke="url(#cyanBlueGrad)" stroke-width="2" />
-    <polygon points="60,18 97,39 97,81 60,102 23,81 23,39" fill="none" stroke="#1E3A8A" stroke-width="1" stroke-opacity="0.5" />
-    
-    <!-- Geometric 'A' Monogram -->
-    <path d="M60 36 L80 82 H69 L63 67 H57 L51 82 H40 Z M60 52 L54 67 H66 Z" fill="url(#cyanBlueGrad)" />
+  <!-- Outer Card Container -->
+  <rect width="800" height="200" rx="18" fill="url(#bgGrad)" stroke="#1E293B" stroke-opacity="0.6" stroke-width="1" />
+  <rect width="800" height="198" rx="18" fill="url(#subtleGrid)" />
+
+  <!-- Logo Background Subtle Glow -->
+  <circle cx="95" cy="97" r="75" fill="url(#logoGlow)" />
+
+  <!-- Logo Group -->
+  <g transform="translate(50, 52)">
+    <use href="#avraan-official-logo" />
   </g>
 
-  <!-- Content Section -->
-  <g transform="translate(185, 0)">
-    <!-- Name Title -->
-    <text x="0" y="76" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#F8FAFC" letter-spacing="0.3">Sheikh Istiaque Mahmud Ayon</text>
-    
-    <!-- Subtitle / Role -->
-    <text x="0" y="105" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#38BDF8" letter-spacing="0.2">Founder &amp; Lead Engineer at Avraan</text>
-    
-    <!-- Technical Focus -->
-    <text x="0" y="136" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#94A3B8" letter-spacing="0.1">Mobile Security Systems • AI Engineering • Distributed Infrastructure</text>
+  <!-- Typography Content Block -->
+  <g transform="translate(172, 0)">
+    <text x="0" y="74" class="text-name">Sheikh Istiaque Mahmud Ayon</text>
+    <text x="0" y="103" class="text-role">Founder &amp; CEO · Avraan</text>
+    <text x="0" y="132" class="text-focus">Mobile Security • AI Integration • Flutter Architecture</text>
   </g>
 
-  <!-- Accent Status Line -->
-  <rect x="0" y="196" width="800" height="4" rx="2" fill="url(#bottomBorder)" />
+  <!-- Extremely Subtle Bottom Line Accent -->
+  <rect x="60" y="196.5" width="680" height="1.5" rx="0.75" fill="url(#bottomAccent)" />
 </svg>
