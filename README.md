@@ -1,16 +1,40 @@
-## Hi there 👋
+# Hi, I'm Ayon 👋
 
-<!--
-**sheikhistiaquemahmudayon-hub/sheikhistiaquemahmudayon-hub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Founder & CEO @ Avraan
 
-Here are some ideas to get you started:
+Building AI-powered security products focused on privacy and mobile security.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Currently Building
+
+- 🛡️ IntrudEye
+- 🤖 AI-powered security features
+- 📱 Flutter applications
+
+---
+
+## 💻 Tech Stack
+
+- Flutter
+- Dart
+- Kotlin
+- Firebase
+- Python
+- Git
+- GitHub
+
+---
+
+## 🎯 Current Focus
+
+- Artificial Intelligence
+- Cybersecurity
+- Mobile Development
+- Product Design
+
+---
+
+## 📫 Contact
+
+- Email: avraan.co@gmail.com
