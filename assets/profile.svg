@@ -9,7 +9,7 @@
     <!-- Official Avraan Logo Gradient -->
     <linearGradient id="avraanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00F2FE" />
-      <stop offset="45%" stop-color="#3B82F6" />
+      <stop offset="50%" stop-color="#3B82F6" />
       <stop offset="100%" stop-color="#8B5CF6" />
     </linearGradient>
 
@@ -24,12 +24,11 @@
       <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.18" />
     </pattern>
 
-    <!-- Official Avraan Vector Logo Definition -->
+    <!-- Official Avraan Hexagon Vector Logo -->
     <g id="avraan-official-logo">
-      <path d="M 45 6 C 55 12, 74 16, 80 28 C 87 43, 83 65, 71 78 C 59 91, 45 95, 45 95 C 45 95, 31 91, 19 78 C 7 65, 3 43, 10 28 C 16 16, 35 12, 45 6 Z" fill="#111A2E" stroke="url(#avraanGrad)" stroke-width="2.5" stroke-linejoin="round" />
-      <path d="M45 15 L67 63 H56 L51 50 H39 L34 63 H23 Z M45 28 L42 41 H48 Z" fill="url(#avraanGrad)" />
-      <path d="M 13 46 C 8 32, 18 19, 34 17 C 25 22, 18 33, 21 44 C 23 50, 28 53, 36 53 C 52 53, 65 35, 75 25 C 67 35, 52 59, 36 59 C 25 59, 16 54, 13 46 Z" fill="url(#avraanGrad)" opacity="0.95" />
-      <path d="M 37 57 C 42 60, 48 60, 53 57" fill="none" stroke="url(#avraanGrad)" stroke-width="2.5" stroke-linecap="round" />
+      <polygon points="45,5 82,26 82,68 45,89 8,68 8,26" fill="#0D1527" stroke="url(#avraanGrad)" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 27 30 C 18 38, 19 56, 30 60 C 23 54, 24 42, 33 37 C 43 32, 54 48, 73 34 C 57 48, 41 57, 30 54 C 23 52, 22 40, 27 30 Z" fill="url(#avraanGrad)" opacity="0.9" />
+      <path d="M 45 22 L 64 66 H 53 L 49 54 H 41 L 37 66 H 26 Z M 45 34 L 43 45 H 47 Z" fill="url(#avraanGrad)" />
     </g>
   </defs>
 
