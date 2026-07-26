@@ -6,16 +6,16 @@
       <stop offset="100%" stop-color="#0F172A" />
     </linearGradient>
 
-    <!-- Official Avraan Logo Gradient -->
+    <!-- Official Avraan Logo Gradient (Cyan to Electric Blue & Purple) -->
     <linearGradient id="avraanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00F2FE" />
-      <stop offset="50%" stop-color="#3B82F6" />
-      <stop offset="100%" stop-color="#7000FF" />
+      <stop offset="45%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#8B5CF6" />
     </linearGradient>
 
     <!-- Logo Radial Background Glow -->
     <radialGradient id="logoGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.08" />
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.1" />
       <stop offset="100%" stop-color="#070C18" stop-opacity="0" />
     </radialGradient>
 
@@ -24,8 +24,8 @@
       <stop offset="0%" stop-color="#00F2FE" stop-opacity="0" />
       <stop offset="20%" stop-color="#00F2FE" stop-opacity="0.4" />
       <stop offset="50%" stop-color="#3B82F6" stop-opacity="0.5" />
-      <stop offset="80%" stop-color="#7000FF" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#7000FF" stop-opacity="0" />
+      <stop offset="80%" stop-color="#8B5CF6" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
     </linearGradient>
 
     <!-- Subtle Grid Texture -->
@@ -33,11 +33,19 @@
       <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.15" />
     </pattern>
 
-    <!-- Official Avraan Vector Logo Definition -->
+    <!-- Official Avraan Vector Logo Definition (Recreated from avraan.png) -->
     <g id="avraan-official-logo">
-      <polygon points="45,5 82,26 82,68 45,89 8,68 8,26" fill="#111A2E" stroke="url(#avraanGrad)" stroke-width="1.75" />
-      <path d="M45 17 L67 65 H56 L51 52 H39 L34 65 H23 Z M45 31 L42 43 H48 Z" fill="url(#avraanGrad)" />
-      <path d="M18 50 C12 36, 22 23, 36 21 C30 25, 23 35, 26 46 C27 50, 31 52, 36 52 C50 52, 63 36, 73 28 C67 36, 52 59, 36 59 C25 59, 19 55, 18 50 Z" fill="url(#avraanGrad)" opacity="0.95" />
+      <!-- Shield Frame Contour -->
+      <path d="M 45 6 C 55 12, 74 16, 80 28 C 87 43, 83 65, 71 78 C 59 91, 45 95, 45 95 C 45 95, 31 91, 19 78 C 7 65, 3 43, 10 28 C 16 16, 35 12, 45 6 Z" fill="#111A2E" stroke="url(#avraanGrad)" stroke-width="2.5" stroke-linejoin="round" />
+      
+      <!-- Central Stylized 'A' Monogram -->
+      <path d="M45 15 L67 63 H56 L51 50 H39 L34 63 H23 Z M45 28 L42 41 H48 Z" fill="url(#avraanGrad)" />
+      
+      <!-- Orbital Fluid Swoosh -->
+      <path d="M 13 46 C 8 32, 18 19, 34 17 C 25 22, 18 33, 21 44 C 23 50, 28 53, 36 53 C 52 53, 65 35, 75 25 C 67 35, 52 59, 36 59 C 25 59, 16 54, 13 46 Z" fill="url(#avraanGrad)" opacity="0.95" />
+      
+      <!-- Inner Base Arc -->
+      <path d="M 37 57 C 42 60, 48 60, 53 57" fill="none" stroke="url(#avraanGrad)" stroke-width="2.5" stroke-linecap="round" />
     </g>
   </defs>
 
@@ -69,11 +77,11 @@
   <rect width="800" height="200" rx="18" fill="url(#bgGrad)" stroke="#1E293B" stroke-opacity="0.6" stroke-width="1" />
   <rect width="800" height="198" rx="18" fill="url(#subtleGrid)" />
 
-  <!-- Logo Background Subtle Glow -->
+  <!-- Logo Background Subtle Radial Glow -->
   <circle cx="95" cy="97" r="75" fill="url(#logoGlow)" />
 
-  <!-- Logo Group -->
-  <g transform="translate(50, 52)">
+  <!-- Logo Group (Centered at Y=50) -->
+  <g transform="translate(50, 50)">
     <use href="#avraan-official-logo" />
   </g>
 
