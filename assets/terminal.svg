@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Window Container -->
+  <rect width="800" height="320" rx="10" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Window Titlebar -->
+  <path d="M 0 10 C 0 4.477 4.477 0 10 0 L 790 0 C 795.523 0 800 4.477 800 10 L 800 38 L 0 38 Z" fill="#111827" />
+  <line x1="0" y1="38" x2="800" y2="38" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Window Control Buttons -->
+  <circle cx="20" cy="19" r="6" fill="#EF4444" />
+  <circle cx="40" cy="19" r="6" fill="#F59E0B" />
+  <circle cx="60" cy="19" r="6" fill="#10B981" />
+
+  <!-- Window Title -->
+  <text x="400" y="23" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="12" fill="#64748B">ayon@avraan-core:~ (zsh)</text>
+
+  <!-- Terminal Content Lines -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Courier New', monospace" font-size="13">
+    <!-- Prompt Line 1 -->
+    <text x="24" y="70">
+      <tspan fill="#10B981" font-weight="600">ayon@avraan</tspan><tspan fill="#64748B">:</tspan><tspan fill="#38BDF8">~</tspan><tspan fill="#F8FAFC">$ cat profile.json</tspan>
+    </text>
+
+    <!-- JSON Output -->
+    <text x="24" y="98" fill="#64748B">{</text>
+    
+    <text x="44" y="122">
+      <tspan fill="#38BDF8">"name"</tspan><tspan fill="#64748B">:</tspan> <tspan fill="#E2E8F0">"Sheikh Istiaque Mahmud Ayon"</tspan><tspan fill="#64748B">,</tspan>
+    </text>
+    
+    <text x="44" y="146">
+      <tspan fill="#38BDF8">"role"</tspan><tspan fill="#64748B">:</tspan> <tspan fill="#E2E8F0">"Founder &amp; Lead Engineer @ Avraan"</tspan><tspan fill="#64748B">,</tspan>
+    </text>
+    
+    <text x="44" y="170">
+      <tspan fill="#38BDF8">"focus"</tspan><tspan fill="#64748B">:</tspan> <tspan fill="#E2E8F0">"Mobile Security &amp; Systems Architecture"</tspan><tspan fill="#64748B">,</tspan>
+    </text>
+    
+    <text x="44" y="194">
+      <tspan fill="#38BDF8">"stack"</tspan><tspan fill="#64748B">:</tspan> <tspan fill="#64748B">[</tspan><tspan fill="#E2E8F0">"Dart"</tspan><tspan fill="#64748B">,</tspan> <tspan fill="#E2E8F0">"Python"</tspan><tspan fill="#64748B">,</tspan> <tspan fill="#E2E8F0">"Kotlin"</tspan><tspan fill="#64748B">,</tspan> <tspan fill="#E2E8F0">"TypeScript"</tspan><tspan fill="#64748B">],</tspan>
+    </text>
+    
+    <text x="44" y="218">
+      <tspan fill="#38BDF8">"location"</tspan><tspan fill="#64748B">:</tspan> <tspan fill="#E2E8F0">"Dhaka, Bangladesh"</tspan>
+    </text>
+    
+    <text x="24" y="242" fill="#64748B">}</text>
+
+    <!-- Prompt Line 2 with Cursor -->
+    <text x="24" y="278">
+      <tspan fill="#10B981" font-weight="600">ayon@avraan</tspan><tspan fill="#64748B">:</tspan><tspan fill="#38BDF8">~</tspan><tspan fill="#F8FAFC">$ </tspan>
+    </text>
+    <rect x="145" y="265" width="8" height="15" fill="#38BDF8" opacity="0.8" />
+  </g>
+</svg>

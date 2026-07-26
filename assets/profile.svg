@@ -1,1 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A0F1D" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
 
+    <linearGradient id="cyanBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.4" />
+    </pattern>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="400" height="400" rx="16" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="1" />
+  <rect width="400" height="400" rx="16" fill="url(#grid)" />
+
+  <!-- Concentric Geometric Accent Rings -->
+  <circle cx="200" cy="175" r="110" stroke="#1E293B" stroke-width="1" fill="none" opacity="0.6" />
+  <circle cx="200" cy="175" r="80" stroke="#1E3A8A" stroke-width="1" stroke-dasharray="4 4" fill="none" opacity="0.5" />
+
+  <!-- Avraan Logo Emblem (Central Monogram Badge) -->
+  <g transform="translate(200, 175)">
+    <!-- Hexagonal Outer Frame -->
+    <polygon points="0,-65 56,-32 56,32 0,65 -56,32 -56,-32" fill="#141E33" stroke="url(#cyanBlueGrad)" stroke-width="2.5" />
+    <polygon points="0,-55 47,-27 47,27 0,55 -47,27 -47,-27" fill="none" stroke="#1E3A8A" stroke-width="1" opacity="0.5" />
+    
+    <!-- Central Geometric 'A' -->
+    <path d="M0 -34 L26 26 H13 L6 7 H-6 L-13 26 H-26 Z M0 -14 L-8 7 H8 Z" fill="url(#cyanBlueGrad)" />
+  </g>
+
+  <!-- Brand & Identity Text -->
+  <text x="200" y="305" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="4" fill="#F8FAFC">AVRAAN</text>
+  <text x="200" y="328" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="500" letter-spacing="1" fill="#94A3B8">SECURITY &amp; AI SYSTEMS</text>
+
+  <!-- Minimal Status Dot -->
+  <circle cx="360" cy="360" r="5" fill="#10B981" />
+  <circle cx="360" cy="360" r="9" fill="none" stroke="#10B981" stroke-width="1" opacity="0.4" />
+</svg>
