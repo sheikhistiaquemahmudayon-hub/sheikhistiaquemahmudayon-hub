@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Sheikh Istiaque Mahmud Ayon Banner" width="100%" />
+  <img src="assets/banner.svg" alt="Sheikh Istiaque Mahmud Ayon Banner" width="100%" />
 </p>
 
 Software engineer building Android security applications and developer tools at **Avraan**.
