@@ -1,32 +1,30 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Sheikh Istiaque Mahmud Ayon Banner" width="100%" />
+  <img src="assets/banner.svg" alt="Sheikh Istiaque Mahmud Ayon" width="100%" />
 </p>
 
-Software engineer building Android security applications and developer tools at **Avraan**.
+Building IntrudEye and other Android security products.
 
 <p align="center">
-  <img src="assets/terminal.svg" alt="Terminal Session" width="100%" />
+  <img src="assets/terminal.svg" alt="Terminal" width="100%" />
 </p>
 
-## Selected Projects
+## Featured Project
 
-### [IntrudEye](https://github.com/sheikhistiaquemahmudayon)
-Android application for unauthorized access detection and theft protection.
+### IntrudEye
 
-## Tech Stack
+Android security application that detects unauthorized access attempts, captures evidence, and delivers real-time security alerts.
 
-- **Languages**: Dart, Kotlin, Python
-- **Mobile**: Flutter, Android SDK
-- **Backend & Tools**: FastAPI, Docker, Linux, Git
+[Google Play](https://play.google.com/store/apps/details?id=com.avraan.intrudeye) · [Website](https://intrudeye.vercel.app)
 
-## Contribution Activity
+## Skills
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/sheikhistiaquemahmudayon/sheikhistiaquemahmudayon/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Activity" width="100%" />
-</p>
+- **Mobile** — Flutter, Dart, Kotlin, Android SDK
+- **Backend** — Python, FastAPI, Firebase
+- **Tools** — Docker, Linux, Git
 
 ## Contact
 
-- **Website**: [avraan.com](https://avraan.com)
-- **LinkedIn**: [sk-istiaque-mahmud-ayon](https://linkedin.com/in/sk-istiaque-mahmud-ayon)
-- **Email**: [contact@avraan.com](mailto:contact@avraan.com)
+- [Google Play](https://play.google.com/store/apps/details?id=com.avraan.intrudeye)
+- [Website](https://intrudeye.vercel.app)
+- [LinkedIn](https://www.linkedin.com/in/sk-istiaque-mahmud-ayon)
+- [Email](mailto:sheikhistiaquemahmudayon@gmail.com)
