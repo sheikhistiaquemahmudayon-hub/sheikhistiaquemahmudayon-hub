@@ -24,8 +24,8 @@ def generate_banner():
     </linearGradient>
 
     <linearGradient id="badgeBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.9" />
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95" />
     </linearGradient>
 
     <radialGradient id="bgGlow" cx="30%" cy="50%" r="60%">
@@ -53,10 +53,10 @@ def generate_banner():
     .subtitle {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 600; fill: url(#textGrad); letter-spacing: -0.2px; }}
     .desc {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; fill: #94A3B8; letter-spacing: 0.2px; }}
     .badge-rect {{ fill: url(#badgeBg); stroke: #334155; stroke-width: 1; rx: 14; filter: url(#cardShadow); }}
-    .icon-text {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #F1F5F9; }}
-    .icon-subtext {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 400; fill: #94A3B8; }}
-    .watermark-text {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 72px; font-weight: 900; fill: url(#textGrad); letter-spacing: 6px; opacity: 0.08; }}
-    .watermark-sub {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; fill: #94A3B8; letter-spacing: 12px; opacity: 0.10; }}
+    .icon-text {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #F1F5F9; }}
+    .icon-subtext {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 400; fill: #94A3B8; letter-spacing: -0.1px; }}
+    .watermark-text {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 68px; font-weight: 900; fill: url(#textGrad); letter-spacing: 6px; opacity: 0.08; }}
+    .watermark-sub {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #94A3B8; letter-spacing: 10px; opacity: 0.10; }}
     .circuit {{ fill: none; stroke: #00F2FE; opacity: 0.05; stroke-width: 1.5; }}
     .hex {{ fill: none; stroke: #6366F1; opacity: 0.06; stroke-width: 1; }}
     .mesh {{ fill: none; stroke: url(#textGrad); stroke-width: 1.5; opacity: 0.05; }}
@@ -72,7 +72,7 @@ def generate_banner():
     <path d="M 50 420 L 50 340 L 110 280 L 270 280" />
   </g>
 
-  <g class="hex" transform="translate(1080, 50)">
+  <g class="hex" transform="translate(1080, 40)">
     <polygon points="25,0 50,14.5 50,43.5 25,58 0,43.5 0,14.5" />
     <polygon points="75,29 100,43.5 100,72.5 75,87 50,72.5 50,43.5" />
   </g>
@@ -82,14 +82,14 @@ def generate_banner():
     <path d="M 1350 0 Q 1200 160 1500 260 T 1620 320" />
   </g>
 
-  <g transform="translate(1220, -10) scale(0.28)" opacity="0.06">
+  <g transform="translate(1260, -25) scale(0.24)" opacity="0.06">
     <use href="#official-logo" />
   </g>
 
-  <text x="1360" y="290" text-anchor="middle" class="watermark-text">AVRAAN</text>
-  <text x="1360" y="325" text-anchor="middle" class="watermark-sub">SECURING TOMORROW</text>
+  <text x="1380" y="195" text-anchor="middle" class="watermark-text">AVRAAN</text>
+  <text x="1380" y="228" text-anchor="middle" class="watermark-sub">SECURING TOMORROW</text>
 
-  <g transform="translate(64, 52) scale(1.18)">
+  <g transform="translate(60, 52) scale(1.18)">
     <circle cx="130" cy="130" r="125" fill="url(#borderGrad)" opacity="0.08" filter="url(#glowSoft)" />
     <circle cx="130" cy="130" r="130" fill="none" stroke="url(#borderGrad)" stroke-width="2.5" opacity="0.5" filter="url(#glowSoft)" />
     <circle cx="130" cy="130" r="130" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" opacity="0.8" />
@@ -100,24 +100,24 @@ def generate_banner():
     </g>
   </g>
 
-  <g transform="translate(415, 95)">
+  <g transform="translate(380, 90)">
     <text x="0" y="45" class="heading">Sheikh Istiaque Mahmud Ayon</text>
     <text x="0" y="85" class="subtitle">Founder &amp; CEO — Avraan</text>
     <text x="0" y="125" class="desc">Building IntrudEye and other Android security products.</text>
     <rect x="0" y="148" width="60" height="4" rx="2" fill="url(#textGrad)" />
   </g>
 
-  <g transform="translate(415, 275)">
+  <g transform="translate(380, 275)">
     <g transform="translate(0, 0)">
-      <rect width="250" height="58" class="badge-rect" />
+      <rect width="240" height="58" class="badge-rect" />
       <rect width="38" height="38" x="10" y="10" rx="10" fill="#0A66C2" />
       <text x="29" y="35" text-anchor="middle" fill="#FFF" font-family="Arial" font-weight="bold" font-size="19">in</text>
-      <text x="60" y="27" class="icon-text">LinkedIn</text>
-      <text x="60" y="45" class="icon-subtext">sk-istiaque-mahmud-ayon</text>
+      <text x="58" y="27" class="icon-text">LinkedIn</text>
+      <text x="58" y="45" class="icon-subtext">sk-istiaque-mahmud-ayon</text>
     </g>
 
-    <g transform="translate(280, 0)">
-      <rect width="220" height="58" class="badge-rect" />
+    <g transform="translate(255, 0)">
+      <rect width="195" height="58" class="badge-rect" />
       <g transform="translate(10, 10)">
         <rect width="38" height="38" rx="10" fill="#0284C7" />
         <g transform="translate(7, 7) scale(1)" fill="none" stroke="#FFFFFF" stroke-width="2">
@@ -126,12 +126,12 @@ def generate_banner():
           <line x1="3" y1="12" x2="21" y2="12" />
         </g>
       </g>
-      <text x="60" y="27" class="icon-text">Website</text>
-      <text x="60" y="45" class="icon-subtext">intrudeye.vercel.app</text>
+      <text x="58" y="27" class="icon-text">Website</text>
+      <text x="58" y="45" class="icon-subtext">intrudeye.vercel.app</text>
     </g>
 
-    <g transform="translate(530, 0)">
-      <rect width="270" height="58" class="badge-rect" />
+    <g transform="translate(465, 0)">
+      <rect width="310" height="58" class="badge-rect" />
       <g transform="translate(10, 10)">
         <rect width="38" height="38" rx="10" fill="#9333EA" />
         <g transform="translate(7, 8) scale(1)" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -139,8 +139,8 @@ def generate_banner():
           <polyline points="2,6 12,13 22,6" />
         </g>
       </g>
-      <text x="60" y="27" class="icon-text">Email</text>
-      <text x="60" y="45" class="icon-subtext">sheikhistiaquemahmudayon@gmail.com</text>
+      <text x="58" y="27" class="icon-text">Email</text>
+      <text x="58" y="45" class="icon-subtext">sheikhistiaquemahmudayon@gmail.com</text>
     </g>
   </g>
 
