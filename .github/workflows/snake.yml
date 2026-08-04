@@ -8,19 +8,14 @@ on:
     branches:
       - main
 
-permissions:
-  contents: write
-
 jobs:
   generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Generate Snake SVG
         uses: Platane/snk/svg-only@v3
@@ -30,7 +25,7 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?color_snake=#00F2FE&color_dots=#0d1117,#161b22,#003865,#0066b2,#00f2fe
 
-      - name: Push Snake SVG to Output Branch
+      - name: Deploy Snake SVG
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output

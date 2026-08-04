@@ -6,54 +6,39 @@
     </linearGradient>
   </defs>
 
-  <!-- Window Container -->
   <rect width="740" height="310" rx="10" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="1" />
-
-  <!-- Window Titlebar -->
   <path d="M 0 10 C 0 4.477 4.477 0 10 0 L 730 0 C 735.523 0 740 4.477 740 10 L 740 36 L 0 36 Z" fill="#111827" />
   <line x1="0" y1="36" x2="740" y2="36" stroke="#1E293B" stroke-width="1" />
 
-  <!-- Window Controls -->
   <circle cx="18" cy="18" r="5.5" fill="#EF4444" />
   <circle cx="36" cy="18" r="5.5" fill="#F59E0B" />
   <circle cx="54" cy="18" r="5.5" fill="#10B981" />
 
-  <!-- Window Title -->
   <text x="370" y="22" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12" fill="#64748B">ayon@avraan-core:~ (zsh)</text>
 
-  <!-- Terminal Content -->
   <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13">
-    <!-- Prompt Line 1 -->
     <text x="24" y="68">
       <tspan fill="#10B981" font-weight="600">ayon@avraan</tspan><tspan fill="#64748B">:</tspan><tspan fill="#38BDF8">~</tspan><tspan fill="#F8FAFC">$ cat profile.json</tspan>
     </text>
 
-    <!-- JSON Output -->
     <text x="24" y="94" fill="#64748B">{</text>
-    
     <text x="44" y="118">
       <tspan fill="#38BDF8">"name"</tspan><tspan fill="#64748B">:</tspan> <tspan fill="#E2E8F0">"Sheikh Istiaque Mahmud Ayon"</tspan><tspan fill="#64748B">,</tspan>
     </text>
-    
     <text x="44" y="142">
       <tspan fill="#38BDF8">"role"</tspan><tspan fill="#64748B">:</tspan> <tspan fill="#E2E8F0">"Founder &amp; CEO @ Avraan"</tspan><tspan fill="#64748B">,</tspan>
     </text>
-    
     <text x="44" y="166">
       <tspan fill="#38BDF8">"focus"</tspan><tspan fill="#64748B">:</tspan> <tspan fill="#E2E8F0">"Mobile Security &amp; Systems Architecture"</tspan><tspan fill="#64748B">,</tspan>
     </text>
-    
     <text x="44" y="190">
       <tspan fill="#38BDF8">"stack"</tspan><tspan fill="#64748B">:</tspan> <tspan fill="#64748B">[</tspan><tspan fill="#E2E8F0">"Dart"</tspan><tspan fill="#64748B">,</tspan> <tspan fill="#E2E8F0">"Python"</tspan><tspan fill="#64748B">,</tspan> <tspan fill="#E2E8F0">"Kotlin"</tspan><tspan fill="#64748B">,</tspan> <tspan fill="#E2E8F0">"TypeScript"</tspan><tspan fill="#64748B">],</tspan>
     </text>
-    
     <text x="44" y="214">
       <tspan fill="#38BDF8">"location"</tspan><tspan fill="#64748B">:</tspan> <tspan fill="#E2E8F0">"Dhaka, Bangladesh"</tspan>
     </text>
-    
     <text x="24" y="238" fill="#64748B">}</text>
 
-    <!-- Prompt Line 2 with Cursor -->
     <text x="24" y="272">
       <tspan fill="#10B981" font-weight="600">ayon@avraan</tspan><tspan fill="#64748B">:</tspan><tspan fill="#38BDF8">~</tspan><tspan fill="#F8FAFC">$ </tspan>
     </text>
