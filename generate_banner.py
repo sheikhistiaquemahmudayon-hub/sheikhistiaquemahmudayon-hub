@@ -55,8 +55,8 @@ def generate_banner():
     .badge-rect {{ fill: url(#badgeBg); stroke: #334155; stroke-width: 1; rx: 14; filter: url(#cardShadow); }}
     .icon-text {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #F1F5F9; }}
     .icon-subtext {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 400; fill: #94A3B8; letter-spacing: -0.1px; }}
-    .watermark-text {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 68px; font-weight: 900; fill: url(#textGrad); letter-spacing: 6px; opacity: 0.08; }}
-    .watermark-sub {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 15px; font-weight: 600; fill: #94A3B8; letter-spacing: 10px; opacity: 0.10; }}
+    .watermark-text {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 82px; font-weight: 900; fill: url(#textGrad); letter-spacing: 6px; opacity: 0.08; }}
+    .watermark-sub {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 600; fill: #94A3B8; letter-spacing: 12px; opacity: 0.10; }}
     .circuit {{ fill: none; stroke: #00F2FE; opacity: 0.05; stroke-width: 1.5; }}
     .hex {{ fill: none; stroke: #6366F1; opacity: 0.06; stroke-width: 1; }}
     .mesh {{ fill: none; stroke: url(#textGrad); stroke-width: 1.5; opacity: 0.05; }}
@@ -82,12 +82,12 @@ def generate_banner():
     <path d="M 1350 0 Q 1200 160 1500 260 T 1620 320" />
   </g>
 
-  <g transform="translate(1260, -25) scale(0.24)" opacity="0.06">
+  <g transform="translate(1220, -35) scale(0.30)" opacity="0.06">
     <use href="#official-logo" />
   </g>
 
-  <text x="1380" y="195" text-anchor="middle" class="watermark-text">AVRAAN</text>
-  <text x="1380" y="228" text-anchor="middle" class="watermark-sub">SECURING TOMORROW</text>
+  <text x="1360" y="235" text-anchor="middle" class="watermark-text">AVRAAN</text>
+  <text x="1360" y="272" text-anchor="middle" class="watermark-sub">SECURING TOMORROW</text>
 
   <g transform="translate(60, 52) scale(1.18)">
     <circle cx="130" cy="130" r="125" fill="url(#borderGrad)" opacity="0.08" filter="url(#glowSoft)" />
