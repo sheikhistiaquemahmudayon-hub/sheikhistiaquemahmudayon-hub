@@ -9,13 +9,14 @@
     <!-- Official Avraan Logo Gradient -->
     <linearGradient id="avraanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#00F2FE" />
-      <stop offset="50%" stop-color="#3B82F6" />
-      <stop offset="100%" stop-color="#8B5CF6" />
+      <stop offset="40%" stop-color="#38BDF8" />
+      <stop offset="70%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#A855F7" />
     </linearGradient>
 
     <!-- Logo Radial Glow -->
     <radialGradient id="logoGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.1" />
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.15" />
       <stop offset="100%" stop-color="#070C18" stop-opacity="0" />
     </radialGradient>
 
@@ -24,11 +25,11 @@
       <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#1E293B" stroke-width="0.75" stroke-opacity="0.18" />
     </pattern>
 
-    <!-- Official Avraan Hexagon Vector Logo -->
+    <!-- Official Avraan Hexagon Vector Logo (Matching avraan.png) -->
     <g id="avraan-official-logo">
-      <polygon points="45,5 82,26 82,68 45,89 8,68 8,26" fill="#0D1527" stroke="url(#avraanGrad)" stroke-width="2" stroke-linejoin="round" />
-      <path d="M 27 30 C 18 38, 19 56, 30 60 C 23 54, 24 42, 33 37 C 43 32, 54 48, 73 34 C 57 48, 41 57, 30 54 C 23 52, 22 40, 27 30 Z" fill="url(#avraanGrad)" opacity="0.9" />
-      <path d="M 45 22 L 64 66 H 53 L 49 54 H 41 L 37 66 H 26 Z M 45 34 L 43 45 H 47 Z" fill="url(#avraanGrad)" />
+      <polygon points="50,6 88,28 88,72 50,94 12,72 12,28" fill="#080E1A" stroke="url(#avraanGrad)" stroke-width="2.5" stroke-linejoin="round" />
+      <path d="M 30 33 C 20 42, 21 61, 33 66 C 25 59, 26 46, 36 41 C 47 35, 59 52, 80 37 C 62 53, 45 62, 33 59 C 25 57, 24 44, 30 33 Z" fill="url(#avraanGrad)" opacity="0.95" />
+      <path d="M 50 25 L 71 73 H 59 L 54 60 H 46 L 41 73 H 29 Z M 50 38 L 48 50 H 52 Z" fill="url(#avraanGrad)" />
     </g>
   </defs>
 
@@ -43,7 +44,7 @@
   <circle cx="200" cy="170" r="92" stroke="#1E293B" stroke-width="1" fill="none" opacity="0.6" />
 
   <!-- Centered Official Logo Group -->
-  <g transform="translate(128, 98) scale(1.6)">
+  <g transform="translate(125, 95) scale(1.5)">
     <use href="#avraan-official-logo" />
   </g>
 
