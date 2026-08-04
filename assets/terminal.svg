@@ -1,57 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 390" width="100%" height="100%">
+  <defs>
+    <filter id="termShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
   <style>
-    .bg { fill: #18181A; stroke: #2E2E32; stroke-width: 1; }
-    .header-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #E5E7EB; }
-    .term-text { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 14px; }
-    .prompt { fill: #8B949E; font-weight: 500; }
-    .cmd { fill: #A78BFA; font-weight: 500; }
-    .output { fill: #E5E7EB; font-weight: 400; }
-    .cursor { fill: #E5E7EB; opacity: 0.8; }
+    .term-bg { fill: #0D1117; stroke: #30363D; stroke-width: 1; }
+    .term-header { fill: #161B22; }
+    .header-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 500; fill: #8B949E; }
+    .term-text { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 13.5px; }
   </style>
 
-  <rect width="800" height="370" rx="14" class="bg" />
+  <rect width="800" height="390" rx="12" class="term-bg" filter="url(#termShadow)" />
+  <path d="M 0 12 A 12 12 0 0 1 12 0 L 788 0 A 12 12 0 0 1 800 12 L 800 42 L 0 42 Z" class="term-header" />
+  <line x1="0" y1="42" x2="800" y2="42" stroke="#30363D" stroke-width="1" />
 
-  <!-- Window Header Icon: </> Bash -->
-  <g transform="translate(28, 22)">
-    <path d="M 4 8 L 0 12 L 4 16 M 12 8 L 16 12 L 12 16 M 10 6 L 6 18" fill="none" stroke="#9CA3AF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
-    <text x="24" y="16" class="header-text">Bash</text>
-  </g>
+  <circle cx="24" cy="21" r="5.5" fill="#FF5F56" stroke="#E0443E" stroke-width="0.5" />
+  <circle cx="42" cy="21" r="5.5" fill="#FFBD2E" stroke="#DEA123" stroke-width="0.5" />
+  <circle cx="60" cy="21" r="5.5" fill="#27C93F" stroke="#1AAB29" stroke-width="0.5" />
 
-  <!-- Copy Icon -->
-  <g transform="translate(744, 22)">
-    <rect x="0" y="4" width="13" height="13" rx="2.5" fill="none" stroke="#9CA3AF" stroke-width="1.6" />
-    <path d="M 4 1 H 14 A 2 2 0 0 1 16 3 V 13" fill="none" stroke="#9CA3AF" stroke-width="1.6" stroke-linecap="round" />
-  </g>
+  <text x="400" y="26" text-anchor="middle" class="header-title">ayon@avraan: ~/projects/intrudeye — zsh</text>
 
-  <g class="term-text">
-    <!-- whoami -->
-    <text x="28" y="75">
-      <tspan class="prompt">ayon@avraan:~$ </tspan><tspan class="cmd">whoami</tspan>
+  <g class="term-text" transform="translate(28, 72)">
+    <text x="0" y="0">
+      <tspan fill="#38BDF8" font-weight="600">ayon@avraan</tspan><tspan fill="#8B949E">:</tspan><tspan fill="#818CF8">~</tspan><tspan fill="#8B949E">$ </tspan><tspan fill="#F1F5F9">whoami</tspan>
     </text>
-    <text x="28" y="100" class="output">Sheikh Istiaque Mahmud Ayon</text>
+    <text x="0" y="24" fill="#94A3B8">Sheikh Istiaque Mahmud Ayon</text>
 
-    <!-- project -->
-    <text x="28" y="145">
-      <tspan class="prompt">ayon@avraan:~$ </tspan><tspan class="cmd">project</tspan>
+    <text x="0" y="64">
+      <tspan fill="#38BDF8" font-weight="600">ayon@avraan</tspan><tspan fill="#8B949E">:</tspan><tspan fill="#818CF8">~</tspan><tspan fill="#8B949E">$ </tspan><tspan fill="#F1F5F9">pwd</tspan>
     </text>
-    <text x="28" y="170" class="output">IntrudEye</text>
+    <text x="0" y="88" fill="#94A3B8">/home/ayon/projects/intrudeye</text>
 
-    <!-- stack -->
-    <text x="28" y="215">
-      <tspan class="prompt">ayon@avraan:~$ </tspan><tspan class="cmd">stack</tspan>
+    <text x="0" y="128">
+      <tspan fill="#38BDF8" font-weight="600">ayon@avraan</tspan><tspan fill="#8B949E">:</tspan><tspan fill="#818CF8">~/projects/intrudeye</tspan><tspan fill="#8B949E"> (</tspan><tspan fill="#F43F5E">main</tspan><tspan fill="#8B949E">)$ </tspan><tspan fill="#F1F5F9">git status</tspan>
     </text>
-    <text x="28" y="240" class="output">Flutter  •  Dart  •  Kotlin  •  Firebase  •  Python</text>
+    <text x="0" y="152" fill="#94A3B8">On branch main</text>
+    <text x="0" y="176" fill="#4ADE80">Your branch is up to date with 'origin/main'.</text>
 
-    <!-- git branch -->
-    <text x="28" y="285">
-      <tspan class="prompt">ayon@avraan:~$ </tspan><tspan class="cmd">git branch</tspan>
+    <text x="0" y="216">
+      <tspan fill="#38BDF8" font-weight="600">ayon@avraan</tspan><tspan fill="#8B949E">:</tspan><tspan fill="#818CF8">~/projects/intrudeye</tspan><tspan fill="#8B949E"> (</tspan><tspan fill="#F43F5E">main</tspan><tspan fill="#8B949E">)$ </tspan><tspan fill="#F1F5F9">flutter --version</tspan>
     </text>
-    <text x="28" y="310" class="output">* main</text>
+    <text x="0" y="240" fill="#94A3B8">Flutter 3.22.2 • channel stable • Dart 3.4.3</text>
 
-    <!-- prompt with cursor -->
-    <text x="28" y="355">
-      <tspan class="prompt">ayon@avraan:~$ </tspan>
+    <text x="0" y="280">
+      <tspan fill="#38BDF8" font-weight="600">ayon@avraan</tspan><tspan fill="#8B949E">:</tspan><tspan fill="#818CF8">~/projects/intrudeye</tspan><tspan fill="#8B949E"> (</tspan><tspan fill="#F43F5E">main</tspan><tspan fill="#8B949E">)$ </tspan>
     </text>
-    <rect x="156" y="343" width="8" height="16" class="cursor" />
+    <rect x="360" y="267" width="8" height="17" fill="#F8FAFC" opacity="0.8" rx="1" />
   </g>
 </svg>
