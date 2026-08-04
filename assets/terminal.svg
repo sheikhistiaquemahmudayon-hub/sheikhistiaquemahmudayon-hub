@@ -1,47 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 310" width="100%" height="100%">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080C16" />
-      <stop offset="100%" stop-color="#0F172A" />
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 210" width="100%" height="100%">
+  <style>
+    .bg { fill: #0D1117; stroke: #30363D; stroke-width: 1; }
+    .bar { fill: #161B22; }
+    .title { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 12px; fill: #8B949E; }
+    .term-text { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 13px; }
+    .user { fill: #7EE787; font-weight: 600; }
+    .host { fill: #8B949E; }
+    .path { fill: #79C0FF; }
+    .cmd { fill: #F0F6FC; }
+    .output { fill: #C9D1D9; }
+  </style>
 
-  <rect width="740" height="310" rx="10" fill="url(#bgGrad)" stroke="#1E293B" stroke-width="1" />
-  <path d="M 0 10 C 0 4.477 4.477 0 10 0 L 730 0 C 735.523 0 740 4.477 740 10 L 740 36 L 0 36 Z" fill="#111827" />
-  <line x1="0" y1="36" x2="740" y2="36" stroke="#1E293B" stroke-width="1" />
+  <rect width="800" height="210" rx="8" class="bg" />
 
-  <circle cx="18" cy="18" r="5.5" fill="#EF4444" />
-  <circle cx="36" cy="18" r="5.5" fill="#F59E0B" />
-  <circle cx="54" cy="18" r="5.5" fill="#10B981" />
+  <path d="M 0 8 C 0 3.58 3.58 0 8 0 L 792 0 C 796.42 0 800 3.58 800 8 L 800 34 L 0 34 Z" class="bar" />
+  <line x1="0" y1="34" x2="800" y2="34" stroke="#30363D" stroke-width="1" />
 
-  <text x="370" y="22" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="12" fill="#64748B">ayon@avraan-core:~ (zsh)</text>
+  <circle cx="18" cy="17" r="5" fill="#FF5F56" />
+  <circle cx="34" cy="17" r="5" fill="#FFBD2E" />
+  <circle cx="50" cy="17" r="5" fill="#27C93F" />
 
-  <g font-family="'JetBrains Mono', 'Fira Code', Consolas, monospace" font-size="13">
-    <text x="24" y="68">
-      <tspan fill="#10B981" font-weight="600">ayon@avraan</tspan><tspan fill="#64748B">:</tspan><tspan fill="#38BDF8">~</tspan><tspan fill="#F8FAFC">$ cat profile.json</tspan>
-    </text>
+  <text x="400" y="21" text-anchor="middle" class="title">ayon@avraan-dev:~ (zsh)</text>
 
-    <text x="24" y="94" fill="#64748B">{</text>
-    <text x="44" y="118">
-      <tspan fill="#38BDF8">"name"</tspan><tspan fill="#64748B">:</tspan> <tspan fill="#E2E8F0">"Sheikh Istiaque Mahmud Ayon"</tspan><tspan fill="#64748B">,</tspan>
+  <g class="term-text">
+    <text x="20" y="60">
+      <tspan class="user">ayon@avraan</tspan><tspan class="host">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ whoami</tspan>
     </text>
-    <text x="44" y="142">
-      <tspan fill="#38BDF8">"role"</tspan><tspan fill="#64748B">:</tspan> <tspan fill="#E2E8F0">"Founder &amp; CEO @ Avraan"</tspan><tspan fill="#64748B">,</tspan>
-    </text>
-    <text x="44" y="166">
-      <tspan fill="#38BDF8">"focus"</tspan><tspan fill="#64748B">:</tspan> <tspan fill="#E2E8F0">"Mobile Security &amp; Systems Architecture"</tspan><tspan fill="#64748B">,</tspan>
-    </text>
-    <text x="44" y="190">
-      <tspan fill="#38BDF8">"stack"</tspan><tspan fill="#64748B">:</tspan> <tspan fill="#64748B">[</tspan><tspan fill="#E2E8F0">"Dart"</tspan><tspan fill="#64748B">,</tspan> <tspan fill="#E2E8F0">"Python"</tspan><tspan fill="#64748B">,</tspan> <tspan fill="#E2E8F0">"Kotlin"</tspan><tspan fill="#64748B">,</tspan> <tspan fill="#E2E8F0">"TypeScript"</tspan><tspan fill="#64748B">],</tspan>
-    </text>
-    <text x="44" y="214">
-      <tspan fill="#38BDF8">"location"</tspan><tspan fill="#64748B">:</tspan> <tspan fill="#E2E8F0">"Dhaka, Bangladesh"</tspan>
-    </text>
-    <text x="24" y="238" fill="#64748B">}</text>
+    <text x="20" y="80" class="output">Sheikh Istiaque Mahmud Ayon</text>
 
-    <text x="24" y="272">
-      <tspan fill="#10B981" font-weight="600">ayon@avraan</tspan><tspan fill="#64748B">:</tspan><tspan fill="#38BDF8">~</tspan><tspan fill="#F8FAFC">$ </tspan>
+    <text x="20" y="108">
+      <tspan class="user">ayon@avraan</tspan><tspan class="host">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ cat status.txt</tspan>
     </text>
-    <rect x="145" y="259" width="8" height="15" fill="#38BDF8" opacity="0.8" />
+    <text x="20" y="128" class="output">Building IntrudEye (Android Security &amp; Theft Protection) at Avraan</text>
+
+    <text x="20" y="156">
+      <tspan class="user">ayon@avraan</tspan><tspan class="host">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ echo $STACK</tspan>
+    </text>
+    <text x="20" y="176" class="output">Flutter • Kotlin • Python • Dart • Android SDK</text>
+
+    <text x="20" y="196">
+      <tspan class="user">ayon@avraan</tspan><tspan class="host">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ </tspan>
+    </text>
+    <rect x="132" y="184" width="7" height="15" fill="#58A6FF" opacity="0.8" />
   </g>
 </svg>
