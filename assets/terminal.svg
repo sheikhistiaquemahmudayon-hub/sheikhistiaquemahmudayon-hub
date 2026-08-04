@@ -1,46 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 210" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" width="100%" height="100%">
   <style>
-    .bg { fill: #0D1117; stroke: #30363D; stroke-width: 1; }
-    .bar { fill: #161B22; }
-    .title { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 12px; fill: #8B949E; }
-    .term-text { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 13px; }
-    .user { fill: #7EE787; font-weight: 600; }
-    .host { fill: #8B949E; }
-    .path { fill: #79C0FF; }
-    .cmd { fill: #F0F6FC; }
-    .output { fill: #C9D1D9; }
+    .bg { fill: #18181A; stroke: #2E2E32; stroke-width: 1; }
+    .header-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #E5E7EB; }
+    .term-text { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Consolas, monospace; font-size: 14px; }
+    .prompt { fill: #8B949E; font-weight: 500; }
+    .cmd { fill: #A78BFA; font-weight: 500; }
+    .output { fill: #E5E7EB; font-weight: 400; }
+    .cursor { fill: #E5E7EB; opacity: 0.8; }
   </style>
 
-  <rect width="800" height="210" rx="8" class="bg" />
+  <rect width="800" height="370" rx="14" class="bg" />
 
-  <path d="M 0 8 C 0 3.58 3.58 0 8 0 L 792 0 C 796.42 0 800 3.58 800 8 L 800 34 L 0 34 Z" class="bar" />
-  <line x1="0" y1="34" x2="800" y2="34" stroke="#30363D" stroke-width="1" />
+  <!-- Window Header Icon: </> Bash -->
+  <g transform="translate(28, 22)">
+    <path d="M 4 8 L 0 12 L 4 16 M 12 8 L 16 12 L 12 16 M 10 6 L 6 18" fill="none" stroke="#9CA3AF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+    <text x="24" y="16" class="header-text">Bash</text>
+  </g>
 
-  <circle cx="18" cy="17" r="5" fill="#FF5F56" />
-  <circle cx="34" cy="17" r="5" fill="#FFBD2E" />
-  <circle cx="50" cy="17" r="5" fill="#27C93F" />
-
-  <text x="400" y="21" text-anchor="middle" class="title">ayon@avraan-dev:~ (zsh)</text>
+  <!-- Copy Icon -->
+  <g transform="translate(744, 22)">
+    <rect x="0" y="4" width="13" height="13" rx="2.5" fill="none" stroke="#9CA3AF" stroke-width="1.6" />
+    <path d="M 4 1 H 14 A 2 2 0 0 1 16 3 V 13" fill="none" stroke="#9CA3AF" stroke-width="1.6" stroke-linecap="round" />
+  </g>
 
   <g class="term-text">
-    <text x="20" y="60">
-      <tspan class="user">ayon@avraan</tspan><tspan class="host">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ whoami</tspan>
+    <!-- whoami -->
+    <text x="28" y="75">
+      <tspan class="prompt">ayon@avraan:~$ </tspan><tspan class="cmd">whoami</tspan>
     </text>
-    <text x="20" y="80" class="output">Sheikh Istiaque Mahmud Ayon</text>
+    <text x="28" y="100" class="output">Sheikh Istiaque Mahmud Ayon</text>
 
-    <text x="20" y="108">
-      <tspan class="user">ayon@avraan</tspan><tspan class="host">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ cat status.txt</tspan>
+    <!-- project -->
+    <text x="28" y="145">
+      <tspan class="prompt">ayon@avraan:~$ </tspan><tspan class="cmd">project</tspan>
     </text>
-    <text x="20" y="128" class="output">Building IntrudEye (Android Security &amp; Theft Protection) at Avraan</text>
+    <text x="28" y="170" class="output">IntrudEye</text>
 
-    <text x="20" y="156">
-      <tspan class="user">ayon@avraan</tspan><tspan class="host">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ echo $STACK</tspan>
+    <!-- stack -->
+    <text x="28" y="215">
+      <tspan class="prompt">ayon@avraan:~$ </tspan><tspan class="cmd">stack</tspan>
     </text>
-    <text x="20" y="176" class="output">Flutter • Kotlin • Python • Dart • Android SDK</text>
+    <text x="28" y="240" class="output">Flutter  •  Dart  •  Kotlin  •  Firebase  •  Python</text>
 
-    <text x="20" y="196">
-      <tspan class="user">ayon@avraan</tspan><tspan class="host">:</tspan><tspan class="path">~</tspan><tspan class="cmd">$ </tspan>
+    <!-- git branch -->
+    <text x="28" y="285">
+      <tspan class="prompt">ayon@avraan:~$ </tspan><tspan class="cmd">git branch</tspan>
     </text>
-    <rect x="132" y="184" width="7" height="15" fill="#58A6FF" opacity="0.8" />
+    <text x="28" y="310" class="output">* main</text>
+
+    <!-- prompt with cursor -->
+    <text x="28" y="355">
+      <tspan class="prompt">ayon@avraan:~$ </tspan>
+    </text>
+    <rect x="156" y="343" width="8" height="16" class="cursor" />
   </g>
 </svg>
