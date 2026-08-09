@@ -35,7 +35,7 @@ Android security application that detects unauthorized access attempts, captures
 **Languages:** Dart · Kotlin · Python
 **Frameworks:** Flutter · Firebase
 **Tools:** Git · Android Studio · VS Code
-<br>
+
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=sheikhistiaquemahmudayon-hub&theme=dark&background=0d1117&ring=00f2fe&fire=00f2fe&currStreakNum=ffffff&currStreakLabel=c9d1d9&sideNums=ffffff&sideLabels=c9d1d9&dates=c9d1d9&hide_border=true" alt="GitHub Streak Stats" />
 </p>
