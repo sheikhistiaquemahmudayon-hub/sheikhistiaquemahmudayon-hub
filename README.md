@@ -33,9 +33,9 @@ Android security application that detects unauthorized access attempts, captures
 
 ## Skills
 
-**Languages:** C · C++ · Python · Dart · Kotlin · MATLAB · SQL · R
-**Frameworks:** Flutter · Firebase
-**Data & Statistics:** IBM SPSS · RStudio · Statistical Analysis · Data Analysis
+**Languages:** C · C++ · Python · Dart · Kotlin · MATLAB · SQL · R  
+**Frameworks:** Flutter · Firebase  
+**Data & Statistics:** IBM SPSS · RStudio · Statistical Analysis · Data Analysis  
 **Tools:** Git · GitHub · Android Studio · VS Code
 
 <p align="center">
