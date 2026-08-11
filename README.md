@@ -31,7 +31,7 @@ Android anti-theft and security solution designed to detect unauthorized access,
 **Languages:** C · C++ · CSS · Dart · HTML · Java · JavaScript · JSON · Kotlin · Markdown · MATLAB · PowerShell · Python · R · SQL · XML · YAML  
 **Frameworks:** Flutter · Firebase  
 **Data & Statistics:** IBM SPSS · RStudio · Statistical Analysis · Data Analysis  
-**Tools:** Git · GitHub · Android Studio · VS Code
+**Tools:** Git · GitHub · Android Studio · MySQL · VS Code
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=sheikhistiaquemahmudayon-hub&theme=dark&background=0d1117&ring=00f2fe&fire=00f2fe&currStreakNum=ffffff&currStreakLabel=c9d1d9&sideNums=ffffff&sideLabels=c9d1d9&dates=c9d1d9&hide_border=true" alt="GitHub Streak Stats" />
