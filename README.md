@@ -25,16 +25,18 @@ Android security application that detects unauthorized access attempts, captures
 
 ## Selected Repositories
 
-- [IntrudEye](https://github.com/sheikhistiaquemahmudayon/IntrudEye)
-- [intrudeye-website](https://github.com/sheikhistiaquemahmudayon/intrudeye-website)
-- [Avraan-Family-Shield](https://github.com/sheikhistiaquemahmudayon/Avraan-Family-Shield)
-- [sheikhistiaquemahmudayon-hub](https://github.com/sheikhistiaquemahmudayon/sheikhistiaquemahmudayon-hub)
+- [intrudeye-website](https://github.com/sheikhistiaquemahmudayon-hub/intrudeye-website)
+- [intrudeye-source](https://github.com/sheikhistiaquemahmudayon-hub/intrudeye-source)
+- [sheikhistiaquemahmudayon-hub](https://github.com/sheikhistiaquemahmudayon-hub/sheikhistiaquemahmudayon-hub)
+- [avraan-intrudeye-privacy-policy](https://github.com/sheikhistiaquemahmudayon-hub/avraan-intrudeye-privacy-policy)
+- [Avraan-Mail](https://github.com/sheikhistiaquemahmudayon-hub/Avraan-Mail)
 
 ## Skills
 
-**Languages:** Dart · Kotlin · Python
+**Languages:** C · C++ · Python · Dart · Kotlin · MATLAB · SQL · R
 **Frameworks:** Flutter · Firebase
-**Tools:** Git · Android Studio · VS Code
+**Data & Statistics:** IBM SPSS · RStudio · Statistical Analysis · Data Analysis
+**Tools:** Git · GitHub · Android Studio · VS Code
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=sheikhistiaquemahmudayon-hub&theme=dark&background=0d1117&ring=00f2fe&fire=00f2fe&currStreakNum=ffffff&currStreakLabel=c9d1d9&sideNums=ffffff&sideLabels=c9d1d9&dates=c9d1d9&hide_border=true" alt="GitHub Streak Stats" />
