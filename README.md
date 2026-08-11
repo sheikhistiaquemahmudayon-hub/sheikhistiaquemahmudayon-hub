@@ -28,17 +28,13 @@ Android anti-theft and security solution designed to detect unauthorized access,
 - [Avraan-Mail](https://github.com/sheikhistiaquemahmudayon-hub/Avraan-Mail)
 
 ## Skills
-**Languages:** C · C++ · CSS · Dart · HTML · Java · JavaScript · JSON · Kotlin · Markdown · MATLAB · PowerShell · Python · R · SQL · XML · YAML  
-**Frameworks:** Flutter · Firebase  
-**Data & Statistics:** IBM SPSS · RStudio · Statistical Analysis · Data Analysis  
+**Languages:** C · C++ · CSS · Dart · HTML · Java · JavaScript · JSON · Kotlin · Markdown · MATLAB · PowerShell · Python · R · SQL · XML · YAML
+**Frameworks:** Flutter · Firebase
+**Data & Statistics:** IBM SPSS · RStudio · Statistical Analysis · Data Analysis
 **Tools:** Git · GitHub · Android Studio · MySQL · VS Code
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheikhistiaquemahmudayon-hub/sheikhistiaquemahmudayon-hub/output/streak-stats.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sheikhistiaquemahmudayon-hub/sheikhistiaquemahmudayon-hub/output/streak-stats.svg">
-    <img alt="GitHub Streak Stats" src="https://raw.githubusercontent.com/sheikhistiaquemahmudayon-hub/sheikhistiaquemahmudayon-hub/output/streak-stats.svg" width="100%">
-  </picture>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sheikhistiaquemahmudayon-hub&theme=dark&background=0d1117&ring=00f2fe&fire=00f2fe&currStreakNum=ffffff&currStreakLabel=c9d1d9&sideNums=ffffff&sideLabels=c9d1d9&dates=c9d1d9&hide_border=true" alt="GitHub Streak Stats" />
 </p>
 <p align="center">
   <picture>
