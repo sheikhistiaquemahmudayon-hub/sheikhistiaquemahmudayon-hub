@@ -2,7 +2,7 @@
   <img src="assets/banner.svg" alt="Sheikh Istiaque Mahmud Ayon" width="100%" />
 </p>
 
-Building IntrudEye and other Android security products.
+Mathematics Student | AI, Data Science & Applied Research | Founder & CEO at Avraan | Building Technology for Real-World Problems
 
 ## Current Focus
 - Building IntrudEye
