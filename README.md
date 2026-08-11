@@ -5,10 +5,10 @@
 Mathematics Student | AI, Data Science & Applied Research | Founder & CEO at Avraan | Building Technology for Real-World Problems
 
 ## Current Focus
-- Building IntrudEye
-- Android security
-- Mobile system architecture
-- Flutter development
+- AI, Machine Learning & Data Science
+- Applied Mathematics & Computational Research
+- Android Security & Mobile Systems
+- Building Avraan & IntrudEye
 
 <p align="center">
   <img src="assets/terminal.svg" alt="Terminal" width="100%" />
