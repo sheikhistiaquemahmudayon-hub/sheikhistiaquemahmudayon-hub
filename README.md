@@ -19,7 +19,7 @@ Building IntrudEye and other Android security products.
 
 ### IntrudEye
 
-Android security application that detects unauthorized access attempts, captures evidence, and delivers real-time security alerts.
+Android anti-theft and security solution designed to detect unauthorized access, protect against theft, capture evidence, and deliver real-time security alerts.
 
 [Google Play](https://play.google.com/store/apps/details?id=com.avraan.intrudeye) · [Website](https://intrudeye.vercel.app)
 
