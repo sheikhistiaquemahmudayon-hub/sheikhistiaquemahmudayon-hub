@@ -28,7 +28,7 @@ Android anti-theft and security solution designed to detect unauthorized access,
 - [Avraan-Mail](https://github.com/sheikhistiaquemahmudayon-hub/Avraan-Mail)
 
 ## Skills
-**Languages:** C · C++ · Python · Dart · Kotlin · MATLAB · SQL · R  
+**Languages:** C · C++ · CSS · Dart · HTML · Java · JavaScript · JSON · Kotlin · Markdown · MATLAB · PowerShell · Python · R · SQL · XML · YAML  
 **Frameworks:** Flutter · Firebase  
 **Data & Statistics:** IBM SPSS · RStudio · Statistical Analysis · Data Analysis  
 **Tools:** Git · GitHub · Android Studio · VS Code
