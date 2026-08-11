@@ -34,7 +34,7 @@ Android anti-theft and security solution designed to detect unauthorized access,
 **Tools:** Git · GitHub · Android Studio · MySQL · VS Code
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sheikhistiaquemahmudayon-hub&theme=dark&background=0d1117&ring=00f2fe&fire=00f2fe&currStreakNum=ffffff&currStreakLabel=c9d1d9&sideNums=ffffff&sideLabels=c9d1d9&dates=c9d1d9&hide_border=true" alt="GitHub Streak Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sheikhistiaquemahmudayon-hub&theme=dark&background=0d1117&ring=00f2fe&fire=00f2fe&currStreakNum=ffffff&currStreakLabel=c9d1d9&sideNums=ffffff&sideLabels=c9d1d9&dates=c9d1d9&hide_border=true&cache=20260812" alt="GitHub Streak Stats" />
 </p>
 <p align="center">
   <picture>
