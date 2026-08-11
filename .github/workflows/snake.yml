@@ -23,6 +23,12 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?color_snake=#00F2FE&color_dots=#0d1117,#161b22,#003865,#0066b2,#00f2fe
+      - name: Generate Streak Stats SVG
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&theme=dark&background=0d1117&ring=00f2fe&fire=00f2fe&currStreakNum=ffffff&currStreakLabel=c9d1d9&sideNums=ffffff&sideLabels=c9d1d9&dates=c9d1d9&hide_border=true
+          path: dist/streak-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy Snake SVG
         uses: crazy-max/ghaction-github-pages@v4
         with:
