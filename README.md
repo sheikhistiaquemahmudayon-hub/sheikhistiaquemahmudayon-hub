@@ -5,7 +5,6 @@
 Building IntrudEye and other Android security products.
 
 ## Current Focus
-
 - Building IntrudEye
 - Android security
 - Mobile system architecture
@@ -16,15 +15,12 @@ Building IntrudEye and other Android security products.
 </p>
 
 ## Featured Project
-
 ### IntrudEye
-
 Android anti-theft and security solution designed to detect unauthorized access, protect against theft, capture evidence, and deliver real-time security alerts.
 
 [Google Play](https://play.google.com/store/apps/details?id=com.avraan.intrudeye) · [Website](https://intrudeye.vercel.app)
 
 ## Selected Repositories
-
 - [intrudeye-website](https://github.com/sheikhistiaquemahmudayon-hub/intrudeye-website)
 - [intrudeye-source](https://github.com/sheikhistiaquemahmudayon-hub/intrudeye-source)
 - [sheikhistiaquemahmudayon-hub](https://github.com/sheikhistiaquemahmudayon-hub/sheikhistiaquemahmudayon-hub)
@@ -32,7 +28,6 @@ Android anti-theft and security solution designed to detect unauthorized access,
 - [Avraan-Mail](https://github.com/sheikhistiaquemahmudayon-hub/Avraan-Mail)
 
 ## Skills
-
 **Languages:** C · C++ · Python · Dart · Kotlin · MATLAB · SQL · R  
 **Frameworks:** Flutter · Firebase  
 **Data & Statistics:** IBM SPSS · RStudio · Statistical Analysis · Data Analysis  
@@ -50,5 +45,4 @@ Android anti-theft and security solution designed to detect unauthorized access,
 </p>
 
 ## Contact
-
 [Google Play](https://play.google.com/store/apps/details?id=com.avraan.intrudeye) · [Website](https://intrudeye.vercel.app) · [LinkedIn](https://www.linkedin.com/in/sk-istiaque-mahmud-ayon) · [Email](mailto:sheikhistiaquemahmudayon@gmail.com)
